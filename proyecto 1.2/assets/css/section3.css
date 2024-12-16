@@ -1,0 +1,48 @@
+/* General Styles for Contact Section */
+.contact-section {
+    background: linear-gradient(to bottom, #003366, #ffd700); /* Degradado de azul a dorado */
+    color: #ffffff; /* Texto blanco */
+    padding: 50px 0;
+  }
+  
+  /* Contact Details */
+  .contact-section h2 {
+    color: #ffd700; /* Dorado para los títulos */
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  .contact-icon {
+    width: 100px;
+    margin-top: 20px;
+  }
+  
+  /* Map Styles */
+  .map-container iframe {
+    border: 2px solid #ffd700;
+    border-radius: 10px;
+  }
+  
+  /* Footer Image */
+  .award-image {
+    width: 150px;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-section h2 {
+      font-size: 1.5rem;
+    }
+    .contact-section p {
+      font-size: 1rem;
+    }
+    .award-image {
+      width: 120px;
+    }
+  }
+  
